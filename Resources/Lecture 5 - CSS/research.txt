@@ -1,0 +1,6 @@
+Your task is to create a web-page that looks like the one in task.png.
+
+For this, you will need to search on the internet on how to Make the boxes round.
+You will also need to research how to add a box shadow to the cards.
+
+Good luck.
