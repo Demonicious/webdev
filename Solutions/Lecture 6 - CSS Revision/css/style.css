@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: rgb(226, 226, 226);
+}
+
+main {
+    display: flex;
+}
+
+.left {
+    background-image: url(../images/background.png);
+    flex: 1;
+}
+
+.right {
+    background-color: white;
+    flex: 1;
+    padding: 40px;
+}
+
+.right img {
+    width: 60px;
+    height: 60px;
+}
+
+.right h1 {
+    font-size: 65px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.right h3 {
+    font-size: 30px;
+}
+
+.button {
+    padding: 10px 0;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 50px;
+    color: rgb(131, 131, 131);
+    text-decoration: none;
+    display: inline-block;
+    width: 360px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.button img {
+    height: 16px;
+    width: 16px;
+    padding-right: 10px;
+}
+
+.button:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.primary {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+}
+
+.primary:hover {
+    background-color: rgb(27, 127, 194);
+}
+
+.light {
+    font-weight: normal;
+}
+
+.apple-container {
+    padding-top: 12px;
+}
+
+.form {
+    margin-top: 45px;
+}
+
+.form .or {
+    width: 360px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.form .or span {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: -6px;
+    font-size: 13px;
+    background-color: white;
+    display: inline-block;
+    width: 35px;
+    text-align: center;
+}
+
+.form p {
+    width: 360px;
+    margin-top: 7px;
+    font-size: 10px;
+}
+
+.form p a {
+    text-decoration: none;
+    color: rgb(0, 153, 255);
+}
+
+.form h4 {
+    font-size: 25px;
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
