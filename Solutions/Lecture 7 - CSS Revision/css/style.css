@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #128c7e;
+}
+
+header .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    height: 91px;
+    width: 1050px;
+    margin: auto;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+header nav a svg {
+    height: 16px;
+    width: 16px;
+}
+
+main .hero-container {
+    width: 788px;
+    margin: auto;
+
+    display: flex;
+
+    padding: 50px 0;
+}
+
+main .hero-container .left, main .hero-container .right {
+    flex: 1;
+}
+
+
+main .right {
+    text-align: right;
+}
+
+main .right img {
+    width: 304px;
+}
+
+main .left h1 {
+    font-weight: normal;
+    font-size: 32px;
+}
+
+main .left p {
+    color: #1c1e21;
+    margin-top: 30px;
+    font-weight: normal;
+    font-size: 19px;
+}
+
+main .left .secondary {
+    color: #5E5E5E;
+    margin-top: 30px;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+main .left nav {
+    margin-top: 30px;
+}
+
+main .left {
+    display: flex;
+    align-items: center;
+    height: 572px;
+}
+
+main .left nav a {
+    display: block;
+    color: #1CB39B;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+main .left nav a svg {
+    width: 18px;
+    height: 18px;
+}
+
+footer {
+    background-color: #273443;
+}
+
+footer .footer-container {
+    width: 788px;
+    margin: auto;
+    padding: 56px 0;
+    display: flex;
+    color: white;
+}
+
+footer .footer-container section {
+    flex: 1;
+}
+
+footer .footer-container section h1 {
+    color: #F0F4F9;
+    font-weight: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+footer .footer-container section nav {
+    margin-top: 30px;
+}
+
+footer .footer-container section nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+footer .footer-container section nav a:hover {
+    text-decoration: underline;
+}
